@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PurpleCare - Pharmacy Tech Health Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f7f3fa;
+      margin: 0;
+      color: #3c3c3c;
+    }
+    header {
+      background-color: #b39ddb;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: #d1c4e9;
+      padding: 1rem;
+    }
+    nav a {
+      color: #4a148c;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    section.hero {
+      padding: 4rem 2rem;
+      text-align: center;
+      background: url('https://img.icons8.com/clouds/500/health-book.png') no-repeat center 2rem;
+      background-size: 100px;
+    }
+    .hero h1 {
+      color: #6a1b9a;
+    }
+    .hero p {
+      max-width: 600px;
+      margin: 1rem auto;
+    }
+    section.signup {
+      background-color: #ede7f6;
+      padding: 2rem;
+      text-align: center;
+    }
+    input[type=email] {
+      padding: 0.6rem;
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    button {
+      padding: 0.6rem 1rem;
+      background-color: #7e57c2;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      margin-left: 1rem;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #9575cd;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+    .contact {
+      margin-top: 1rem;
+    }
+    section#faq {
+      padding: 2rem;
+      background-color: #f3e5f5;
+    }
+    section#faq h2 {
+      color: #6a1b9a;
+      text-align: center;
+    }
+    section#faq div {
+      max-width: 800px;
+      margin: auto;
+    }
+    section#faq h4 {
+      color: #4a148c;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to PurpleCare</h1>
+    <p>Your Pharmacy Technician Q&A Health Hub</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#faq">FAQs</a>
+    <a href="#signup">Sign Up</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <h1>Got Questions? Get Answers.</h1>
+    <p>PurpleCare is your reliable source for pharmacy technician advice, quick answers, and community health discussions. Ask questions, share knowledge, and support each other.</p>
+  </section>
+
+  <section class="signup" id="signup">
+    <h2>Join Our Community</h2>
+    <p>Sign up to participate in chats and receive updates.</p>
+    <form name="signup" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="signup" />
+      <input type="email" name="email" placeholder="Enter your email" required />
+      <button type="submit">Sign Up</button>
+    </form>
+  </section>
+
+  <section id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div>
+      <h4>What is the role of a pharmacy technician?</h4>
+      <p>Pharmacy technicians assist pharmacists in dispensing medications, managing inventory, and interacting with patients.</p>
+
+      <h4>Do I need a license to work as a pharmacy tech?</h4>
+      <p>Yes, most regions require certification or registration with a pharmacy board.</p>
+
+      <h4>How do I prepare for the Pharmacy Technician Certification Exam (PTCE)?</h4>
+      <p>Study official guides, take practice tests, and join discussion forums like PurpleCare!</p>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>&copy; 2025 PurpleCare.com | All Rights Reserved</p>
+    <div class="contact">
+      <p>Contact us: <a href="mailto:garciaren16@gmail.com" style="color: #fff; text-decoration: underline;">garciaren16@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <!-- Live Chat via Tawk.to (optional) -->
+  <script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/64c0exampledefault'; // Replace with your Tawk.to widget link
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+</body>
+</html>
